@@ -1,0 +1,19 @@
+/* blueprintjs global overrides */
+/* not elegant but convenient */
+.pt-popover {
+  background-color: #f2f2f2;
+}
+
+.pt-tree-node-label {
+  white-space: normal;
+}
+
+.pt-tree-node-content {
+  height: inherit;
+  padding-top: 2px;
+  padding-bottom: 2px; 
+}
+
+.pt-tree-node-secondary-label {
+  padding-left: 10px;
+}

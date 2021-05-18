@@ -1,0 +1,5 @@
+{
+  "data.fetching": "NL---Fetching data...",
+  "data.error": "NL---Error while fetching data: {message}",
+  "data.none": "NL---No data."
+}

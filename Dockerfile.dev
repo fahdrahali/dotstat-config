@@ -1,0 +1,15 @@
+FROM node:alpine
+
+RUN mkdir -p /opt
+WORKDIR /opt
+
+COPY node_modules /opt/node_modules
+COPY dist /opt/dist
+COPY data/dev/configs /opt/configs
+COPY data/dev/assets /opt/assets
+COPY data/dev/i18n /opt/i18n
+COPY .eslint* package.json yarn.lock /opt/
+
+EXPOSE 80
+CMD yarn dist:run
+

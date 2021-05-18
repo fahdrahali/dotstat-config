@@ -1,0 +1,100 @@
+{
+  "staging:SIS-CC-stable": {
+    "label": "staging:SIS-CC-stable",
+    "url": "http://nsi-stable-demo.siscc.org/rest",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "hasLastNObservations": false,
+    "indexed": true,
+    "queries": [
+      { "version": "1.0", "categorySchemeId": "OECDCS1", "agencyId": "OECD" },
+      { "version": "1.0", "categorySchemeId": "CAS_2", "agencyId": "OECD"}
+    ]
+  },
+  "staging:SIS-CC-reset": {
+    "label": "staging:SIS-CC-reset",
+    "url": "http://nsi-reset-demo.siscc.org/rest",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "hasLastNObservations": true,
+    "indexed": true,
+    "queries": [
+      { "version": "1.0", "categorySchemeId": "OECDCS1", "agencyId": "OECD" }
+    ]
+  },
+  "OECD-design": {
+    "label": "OECD-design",
+    "url": "http://nsi-design-oecd.redpelicans.com/rest",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "indexed": false
+  },
+  "OECD-staging": {
+    "label": "OECD-staging",
+    "url": "http://nsi-staging-oecd.redpelicans.com/rest",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "indexed": false
+  },
+  "qa:stable": {
+    "label": "qa:stable",
+    "url": "http://nsi-stable-qa.siscc.org/rest",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "indexed": true,
+		"queries": [
+      { "version": "1.0", "categorySchemeId": "OECDCS1", "agencyId": "OECD" }
+    ]
+  },
+  "qa:reset": {
+    "label": "qa:reset",
+    "url": "http://nsi-reset-qa.siscc.org/rest",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "indexed": false
+  },
+  "ILO": {
+    "label": "ILO",
+    "url": "https://ilo.org/sdmx-test/rest",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "hasLastNObservations": true,
+    "indexed": false,
+    "queries": [
+      { "version": "1.0", "categorySchemeId": "CAS_SUBJECT", "agencyId": "ILO" },
+      { "version": "1.0", "categorySchemeId": "CAS_BREAKDOWN", "agencyId": "ILO" },
+      { "version": "1.0", "categorySchemeId": "CAS_DATABASE", "agencyId": "ILO" }
+    ]
+  },
+  "ISTAT-NSIDISS": {
+    "label": "ISTAT-NSIDISS",
+    "url": "http://sistanhub.istat.it/NSIDISS/rest",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "indexed": false,
+    "queries": [
+      { "version": "1.0", "categorySchemeId": "ISTAT_DW", "agencyId": "IT1" }
+    ]
+  },
+  "ISTAT-SDMXWSN": {
+    "label": "ISTAT-SDMXWSN",
+    "url": "http://sistanhub.istat.it/SDMXWSN/rest",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "indexed": false,
+    "queries": [
+      { "version": "1.0", "categorySchemeId": "DDB_TEST", "agencyId": "IT1" }
+    ]
+  },
+  "OECD-V7-prod": {
+    "label": "OECD-V7-prod",
+    "url": "http://dotstatcor-dev2.main.oecd.org:86/rest",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "indexed": false,
+    "queries": [
+      { "version": "1.0", "categorySchemeId": "CAS_1", "agencyId": "OECD" },
+      { "version": "1.0", "categorySchemeId": "CAS_2", "agencyId": "OECD" }
+    ]
+  }
+}

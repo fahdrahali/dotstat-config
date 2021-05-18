@@ -1,0 +1,9 @@
+{
+  "data.fetching": "Fetching data...",
+  "data.error": "Error while fetching data: {message}",
+  "data.none": "No data.",
+  "incomplete.table.data": "This preview displays {range, number} data points. Your selection is above this limit resulting in an incomplete table.",
+  "incomplete.chart.data": "This preview displays {range, number} data points. Your selection is above this limit resulting in an incomplete chart.",
+  "data.not.found": "Oops, the view you are looking for doesn't exist. Make sure to use a correct and complete link.",
+  "data.pending": "Oops, this view isn't accessible yet. Make sure to validate the related email address first."
+}

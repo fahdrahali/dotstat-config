@@ -1,0 +1,126 @@
+{
+  "sdmx": {
+    "datasourceIds": [
+      "qa:stable",
+      "qa:reset",
+      "staging:SIS-CC-stable",
+      "staging:SIS-CC-reset",
+      "OECD-design",
+      "OECD-staging",
+      "OECD-V7-prod"
+    ],
+    "datasources": {
+      "qa:stable": {
+        "color": "white",
+        "backgroundColor": "#4EA397",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "qa:reset": {
+        "color": "white",
+        "backgroundColor": "#4DAFBC",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "staging:SIS-CC-stable": {
+        "isExternal":true,
+        "color": "white",
+        "backgroundColor": "#606A80",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "staging:SIS-CC-reset": {
+        "isExternal":true,
+        "color": "white",
+        "backgroundColor": "#735667",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "OECD-design": {
+        "isExternal":true,
+        "color": "white",
+        "backgroundColor": "#606A80",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "OECD-staging": {
+        "isExternal":true,
+        "color": "white",
+        "backgroundColor": "#735667",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "OECD-V7-prod": {
+        "isExternal":true,
+        "color": "white",
+        "backgroundColor": "#bc5100",
+        "label":"OECD-V7-prod",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      }
+    },
+    "typeIds": [
+      "agencyscheme",
+      "categoryscheme",
+      "categorisation",
+      "codelist",
+      "conceptscheme",
+      "contentconstraint",
+      "datastructure",
+      "dataflow",
+      "hierarchicalcodelist",
+      "metadatastructure",
+      "metadataflow",
+      "structureset"
+    ],
+    "uploadSizeLimit": 30000000
+  },
+  "i18n": {
+    "localeId": "en",
+    "locales": {
+      "en": {
+        "id": "en",
+        "delimiters": { "thousands": " ", "decimal": "."  },
+        "timeFormat": "YYYY-MMM"
+      },
+      "fr": {
+        "id": "fr",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "es": {
+        "id": "es",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "it": {
+        "id": "it",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "ar": {
+        "id": "ar",
+        "isRtl": true,
+        "delimiters": { "thousands": " ", "decimal": ","  }
+      },
+      "km": {
+        "id": "km",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "YYYY-MMM"
+      },
+      "nl": {
+        "id": "nl",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "YYYY-MMM"
+      },
+      "de": {
+        "id": "de",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      }
+    }
+  },
+  "app": {
+    "footer": {
+      "link": "https://siscc.org/"
+    }
+  },
+  "assets": {
+    "logo": "/assets/siscc/data-lifecycle-manager/images/logo.png",
+    "icon": "/assets/siscc/data-lifecycle-manager/images/sis-cc-icon.png"
+  },
+  "styles": "/assets/siscc/data-lifecycle-manager/styles/styles.css"
+}

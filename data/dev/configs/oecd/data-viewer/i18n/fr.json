@@ -1,0 +1,7 @@
+{
+  "data.fetching": "Récupération des données...",
+  "data.error": "Erreur lors de la récupération des données: {message}",
+  "data.none": "Pas de donnée.",
+  "incomplete.table.data": "Cet aperçu affiche {range, number} données. Votre sélection dépasse cette limite, ce qui entraîne un tableau incomplet.",
+  "incomplete.chart.data": "Cet aperçu affiche {range, number} données. Votre sélection dépasse cette limite, ce qui entraîne un graphe incomplet."
+}

@@ -1,0 +1,354 @@
+{
+  "accessibility.disable": {
+  },
+  "accessibility.enable": {
+  },
+  "ar": {
+  },
+  "chart.choropleth": {
+  },
+  "chart.config.baseline": {
+  },
+  "chart.config.dimension.for.symbols": {
+  },
+  "chart.config.dimension.values.x.axis": {
+  },
+  "chart.config.dimension.values.y.axis": {
+  },
+  "chart.config.dimension.x.axis": {
+  },
+  "chart.config.dimension.x.y.axes": {
+  },
+  "chart.config.focus": {
+  },
+  "chart.config.frequency": {
+  },
+  "chart.config.height": {
+  },
+  "chart.config.highlights": {
+  },
+  "chart.config.maximum": {
+  },
+  "chart.config.minimum": {
+  },
+  "chart.config.observations.displayed": {
+  },
+  "chart.config.pivot": {
+  },
+  "chart.config.select": {
+  },
+  "chart.config.series": {
+  },
+  "chart.config.size": {
+  },
+  "chart.config.stacked.percent": {
+  },
+  "chart.config.stacked.values": {
+  },
+  "chart.config.step": {
+  },
+  "chart.config.step.period": {
+  },
+  "chart.config.width": {
+  },
+  "chart.config.x.axis": {
+  },
+  "chart.config.y.axis": {
+  },
+  "de": {
+  },
+  "de.api.queries.contact": {
+  },
+  "de.api.queries.copied": {
+  },
+  "de.api.queries.copy": {
+  },
+  "de.api.queries.doc": {
+  },
+  "de.api.queries.format.flat": {
+  },
+  "de.api.queries.format.label": {
+  },
+  "de.api.queries.format.time.series": {
+  },
+  "de.api.queries.information": {
+  },
+  "de.api.queries.label.data": {
+  },
+  "de.api.queries.label.structure": {
+  },
+  "de.api.queries.notice": {
+  },
+  "de.api.queries.title": {
+  },
+  "de.app.title.search": {
+  },
+  "de.app.title.vis": {
+  },
+  "de.contentConstraints.checkbox.label": {
+  },
+  "de.error.title": {
+  },
+  "de.filter.period.title.head": {
+  },
+  "de.filter.period.title.last": {
+  },
+  "de.filters.search.help": {
+  },
+  "de.footer.author": {
+  },
+  "de.footer.description": {
+  },
+  "de.footer.disclaimer": {
+  },
+  "de.panel.contentConstraints.title": {
+  },
+  "de.period.day": {
+  },
+  "de.period.end": {
+  },
+  "de.period.full_hour": {
+  },
+  "de.period.helpLastNPeriods": {
+  },
+  "de.period.hour": {
+  },
+  "de.period.last": {
+  },
+  "de.period.minute": {
+  },
+  "de.period.month": {
+  },
+  "de.period.periods": {
+  },
+  "de.period.quarter": {
+  },
+  "de.period.semester": {
+  },
+  "de.period.start": {
+  },
+  "de.period.week": {
+  },
+  "de.period.year": {
+  },
+  "de.search.agencyId": {
+  },
+  "de.search.back": {
+  },
+  "de.search.dataflow.last.updated": {
+  },
+  "de.search.dataflow.source": {
+  },
+  "de.search.datasourceId": {
+  },
+  "de.search.list.blank": {
+  },
+  "de.search.list.loading": {
+  },
+  "de.search.list.status": {
+  },
+  "de.search.page": {
+  },
+  "de.search.page.of": {
+  },
+  "de.search.splash": {
+  },
+  "de.search.topics.browse": {
+  },
+  "de.search.version": {
+  },
+  "de.side.filters.action": {
+  },
+  "de.table.layout.apply": {
+  },
+  "de.table.layout.cancel": {
+  },
+  "de.table.layout.getter.dimension": {
+  },
+  "de.table.layout.help": {
+  },
+  "de.table.layout.table": {
+  },
+  "de.table.layout.time.asc": {
+  },
+  "de.table.layout.time.desc": {
+  },
+  "de.table.layout.value.one": {
+  },
+  "de.table.layout.x": {
+  },
+  "de.table.layout.y": {
+  },
+  "de.table.layout.z": {
+  },
+  "de.viewer.copyright.content.label": {
+  },
+  "de.viewer.copyright.content.link.label": {
+  },
+  "de.viewer.copyright.label": {
+  },
+  "de.vis.map.loading": {
+  },
+  "de.visualisation.data.loading": {
+  },
+  "de.visualisation.loading": {
+  },
+  "de.visualisation.toolbar.action.apiqueries": {
+  },
+  "de.visualisation.toolbar.action.customize": {
+  },
+  "de.visualisation.toolbar.action.download": {
+  },
+  "de.visualisation.toolbar.action.download.chart.selection": {
+  },
+  "de.visualisation.toolbar.action.download.csv.all": {
+  },
+  "de.visualisation.toolbar.action.download.csv.selection": {
+  },
+  "de.visualisation.toolbar.action.download.excel.selection": {
+  },
+  "de.visualisation.toolbar.action.fullscreen": {
+  },
+  "de.visualisation.toolbar.action.labels": {
+  },
+  "de.visualisation.toolbar.action.more": {
+  },
+  "de.visualisation.toolbar.action.share": {
+  },
+  "de.visualisation.toolbar.chart": {
+  },
+  "de.visualisation.toolbar.chart.bar": {
+  },
+  "de.visualisation.toolbar.chart.horizontalsymbol": {
+  },
+  "de.visualisation.toolbar.chart.row": {
+  },
+  "de.visualisation.toolbar.chart.scatter": {
+  },
+  "de.visualisation.toolbar.chart.stacked": {
+  },
+  "de.visualisation.toolbar.chart.timeline": {
+  },
+  "de.visualisation.toolbar.chart.verticalsymbol": {
+  },
+  "de.visualisation.toolbar.table": {
+  },
+  "en": {
+  },
+  "es": {
+  },
+  "fr": {
+  },
+  "incomplete.chart.data": {
+  },
+  "incomplete.table.data": {
+  },
+  "it": {
+  },
+  "km": {
+  },
+  "log.error.sdmx.404": {
+  },
+  "log.error.sdmx.40x": {
+  },
+  "log.error.sdmx.xxx": {
+  },
+  "nl": {
+  },
+  "scopelist.selection.current": {
+  },
+  "scopelist.selection.level": {
+  },
+  "scopelist.selection.title": {
+  },
+  "share.action": {
+  },
+  "share.disclaimer": {
+  },
+  "share.error.message": {
+  },
+  "share.error.title": {
+  },
+  "share.latest": {
+  },
+  "share.mail": {
+  },
+  "share.policy.link": {
+  },
+  "share.snapshot": {
+  },
+  "share.success.message": {
+  },
+  "share.success.title": {
+  },
+  "share.title": {
+  },
+  "units.of.measure": {
+  },
+  "used.filters.reducing": {
+  },
+  "user.login": {
+  },
+  "user.logout": {
+  },
+  "vx.config.copyright": {
+  },
+  "vx.config.display.both": {
+  },
+  "vx.config.display.code": {
+  },
+  "vx.config.display.label": {
+  },
+  "vx.config.logo": {
+  },
+  "vx.config.reset": {
+  },
+  "vx.config.source": {
+  },
+  "vx.config.subtitle": {
+  },
+  "vx.config.title": {
+  },
+  "vx.config.uniq.focus.option": {
+  },
+  "vx.filters.current.clear": {
+  },
+  "vx.filters.current.title": {
+  },
+  "vx.no.data.selection": {
+  },
+  "vx.no.time.data": {
+  },
+  "vx.spotlight.placeholder": {
+  },
+  "vx.spotlight.placeholder.primary": {
+  },
+  "vx.spotlight.placeholder.secondary": {
+  },
+  "wcag.filters.search.help": {
+  },
+  "wcag.pinned": {
+  },
+  "wcag.scopelist.navigate.backHelper": {
+  },
+  "wcag.scopelist.navigate.next": {
+  },
+  "wcag.search.page.end": {
+  },
+  "wcag.search.page.next": {
+  },
+  "wcag.search.page.previous": {
+  },
+  "wcag.search.page.start": {
+  },
+  "wcag.table.layout.cancel": {
+  },
+  "wcag.table.layout.end": {
+  },
+  "wcag.table.layout.explanation": {
+  },
+  "wcag.table.layout.start": {
+  },
+  "wcag.table.layout.update": {
+  }
+}

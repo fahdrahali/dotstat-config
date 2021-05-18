@@ -1,0 +1,16 @@
+{
+  "default": {
+    "id": "default",
+    "name": "default"
+  },
+  "oecd": {
+    "id": "oecd",
+    "name": "OECD",
+    "keycloak": { "realm": "OECD", "clientId": "app" }
+  },
+  "oecd2": {
+    "id": "oecd2",
+    "name": "OECD2",
+    "keycloak": { "realm": "OECD", "clientId": "app" }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "ar": {
+  },
+  "artefact.code": {
+  },
+  "artefact.delete": {
+  },
+  "artefact.delete.error": {
+  },
+  "artefact.delete.success": {
+  },
+  "artefact.description": {
+  },
+  "artefact.is.deleting": {
+  },
+  "artefact.is.exporting.data": {
+  },
+  "artefact.is.exporting.structure": {
+  },
+  "artefact.is.final": {
+  },
+  "artefact.is.transfering.data": {
+  },
+  "artefact.is.updating": {
+  },
+  "artefact.label": {
+  },
+  "artefact.no.label": {
+  },
+  "artefact.observations": {
+  },
+  "artefact.owner": {
+  },
+  "artefact.relatives": {
+  },
+  "artefact.relatives.error": {
+  },
+  "artefact.type": {
+  },
+  "artefact.type.agencyscheme": {
+  },
+  "artefact.type.attachmentconstraint": {
+  },
+  "artefact.type.categorisation": {
+  },
+  "artefact.type.categoryscheme": {
+  },
+  "artefact.type.codelist": {
+  },
+  "artefact.type.conceptscheme": {
+  },
+  "artefact.type.contentconstraint": {
+  },
+  "artefact.type.dataconsumerscheme": {
+  },
+  "artefact.type.dataflow": {
+  },
+  "artefact.type.dataproviderscheme": {
+  },
+  "artefact.type.datastructure": {
+  },
+  "artefact.type.hierarchicalcodelist": {
+  },
+  "artefact.type.metadataflow": {
+  },
+  "artefact.type.metadatastructure": {
+  },
+  "artefact.type.organisationscheme": {
+  },
+  "artefact.type.organisationunitscheme": {
+  },
+  "artefact.type.process": {
+  },
+  "artefact.type.provisionagreement": {
+  },
+  "artefact.type.reportingtaxonomy": {
+  },
+  "artefact.type.structureset": {
+  },
+  "artefact.unknown.observations": {
+  },
+  "artefact.version": {
+  },
+  "artefact.withall.refs.selector": {
+  },
+  "artefact.without.refs.selector": {
+  },
+  "artefacts.filters.agencies.title": {
+  },
+  "artefacts.filters.categories.title": {
+  },
+  "artefacts.filters.external.spaces.title": {
+  },
+  "artefacts.filters.my.artefacts": {
+  },
+  "artefacts.filters.spaces.title": {
+  },
+  "artefacts.filters.types.title": {
+  },
+  "artefacts.filters.version.all": {
+  },
+  "artefacts.filters.version.latest": {
+  },
+  "artefacts.filters.version.title": {
+  },
+  "artefacts.no.artefact": {
+  },
+  "artefacts.no.selection": {
+  },
+  "artefacts.no.spaces": {
+  },
+  "artefacts.no.types": {
+  },
+  "artefacts.status": {
+  },
+  "dataflow.categories": {
+  },
+  "dataflow.no.categories": {
+  },
+  "de": {
+  },
+  "dlm.app.footer.author": {
+  },
+  "dlm.app.footer.description": {
+  },
+  "dlm.app.footer.disclaimer": {
+  },
+  "dlm.app.title": {
+  },
+  "dump.description": {
+  },
+  "dump.download": {
+  },
+  "dump.reset": {
+  },
+  "dump.spaces": {
+  },
+  "dump.title": {
+  },
+  "en": {
+  },
+  "es": {
+  },
+  "export.artefact": {
+  },
+  "export.data": {
+  },
+  "export.data.csv": {
+  },
+  "export.data.xml": {
+  },
+  "file": {
+  },
+  "files.no.file": {
+  },
+  "filter.final": {
+  },
+  "filters.no.filter": {
+  },
+  "fr": {
+  },
+  "it": {
+  },
+  "km": {
+  },
+  "locale.current": {
+  },
+  "logout": {
+  },
+  "nl": {
+  },
+  "pagination.status": {
+  },
+  "path.current": {
+  },
+  "route.dump": {
+  },
+  "route.not.found": {
+  },
+  "route.upload.data": {
+  },
+  "route.upload.structure": {
+  },
+  "selection.reset": {
+  },
+  "spaces.no.space": {
+  },
+  "spotlight.placeholder": {
+  },
+  "transfer-ws.status.401": {
+  },
+  "transfer-ws.status.403": {
+  },
+  "transfer.apply": {
+  },
+  "transfer.artefact": {
+  },
+  "transfer.artefact.error": {
+  },
+  "transfer.artefact.id": {
+  },
+  "transfer.artefact.name": {
+  },
+  "transfer.artefact.source": {
+  },
+  "transfer.artefact.success": {
+  },
+  "transfer.artefact.type": {
+  },
+  "transfer.artefact.warning": {
+  },
+  "transfer.cancel": {
+  },
+  "transfer.data": {
+  },
+  "transfer.data.error": {
+  },
+  "transfer.data.success": {
+  },
+  "transfer.data.warning": {
+  },
+  "transfer.dataquery": {
+  },
+  "transfer.dataquery.info": {
+  },
+  "transfer.dataquery.placeholder": {
+  },
+  "transfer.destination": {
+  },
+  "transfer.source": {
+  },
+  "upload": {
+  },
+  "upload.artefact.error": {
+  },
+  "upload.artefact.help": {
+  },
+  "upload.artefact.success": {
+  },
+  "upload.artefact.title": {
+  },
+  "upload.artefact.warning": {
+  },
+  "upload.data.error": {
+  },
+  "upload.data.help.edd.file": {
+  },
+  "upload.data.help.excel": {
+  },
+  "upload.data.help.sdmx": {
+  },
+  "upload.data.success": {
+  },
+  "upload.data.title": {
+  },
+  "upload.data.warning": {
+  },
+  "upload.exceed.oversize.limit": {
+  },
+  "upload.files": {
+  },
+  "upload.files.add": {
+  },
+  "upload.files.add.help": {
+  },
+  "upload.mode.EXCEL_EDD": {
+  },
+  "upload.mode.SDMX_CSV": {
+  },
+  "upload.path": {
+  },
+  "upload.path.checkbox": {
+  },
+  "upload.path.placeholder": {
+  },
+  "upload.reset": {
+  },
+  "upload.spaces": {
+  },
+  "upload.unknown": {
+  },
+  "users.none": {
+  },
+  "view.artefact.relatives": {
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "sdmx": {
+    "datasourceIds": [
+      "staging:SIS-CC-stable",
+      "staging:SIS-CC-reset",
+      "qa:stable",
+      "qa:reset",
+      "ILO",
+      "ISTAT-NSIDISS",
+      "ISTAT-SDMXWSN",
+      "OECD-V7-prod"
+    ],
+    "datasources": {
+      "staging:SIS-CC-stable": {
+        "color": "white",
+        "backgroundColor": "#606A80",
+        "label": "staging:SIS-CC-stable",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "staging:SIS-CC-reset": {
+        "color": "white",
+        "backgroundColor": "#735667",
+        "label": "staging:SIS-CC-reset",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "qa:stable": {
+        "isExternal": true,
+        "color": "white",
+        "backgroundColor": "#4EA397",
+        "label": "qa:stable",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "qa:reset": {
+        "isExternal": true,
+        "color": "white",
+        "backgroundColor": "#4DAFBC",
+        "label": "qa:reset",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "ILO": {
+        "isExternal": true,
+        "color": "white",
+        "backgroundColor": "#839973",
+        "label": "ILO-external",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "ISTAT-NSIDISS": {
+        "isExternal": true,
+        "color": "white",
+        "backgroundColor": "#B35961",
+        "label": "ISTAT-NSIDISS",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "ISTAT-SDMXWSN": {
+        "isExternal": true,
+        "color": "white",
+        "backgroundColor": "#B35961",
+        "label": "ISTAT-SDMXWSN",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      },
+      "OECD-V7-prod": {
+        "isExternal":true,
+        "color": "white",
+        "backgroundColor": "#bc5100",
+        "label":"OECD-V7-prod",
+        "dataExplorerUrl": "http://de-qa.siscc.org"
+      }
+    },
+    "typeIds": [
+      "agencyscheme",
+      "categoryscheme",
+      "categorisation",
+      "codelist",
+      "conceptscheme",
+      "contentconstraint",
+      "datastructure",
+      "dataflow",
+      "hierarchicalcodelist",
+      "metadatastructure",
+      "metadataflow",
+      "structureset"
+    ],
+    "uploadSizeLimit": 30000000
+  },
+  "i18n": {
+    "localeId": "en",
+    "locales": {
+      "en": {
+        "id": "en",
+        "delimiters": { "thousands": " ", "decimal": "."  },
+        "timeFormat": "YYYY-MMM"
+      },
+      "fr": {
+        "id": "fr",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "es": {
+        "id": "es",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "it": {
+        "id": "it",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "ar": {
+        "id": "ar",
+        "isRtl": true,
+        "delimiters": { "thousands": " ", "decimal": ","  }
+      },
+      "km": {
+        "id": "km",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "YYYY-MMM"
+      },
+      "nl": {
+        "id": "nl",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "YYYY-MMM"
+      },
+      "de": {
+        "id": "de",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      }
+    }
+  },
+  "app": {
+    "footer": {
+      "link": "https://siscc.org/"
+    }
+  },
+  "assets": {
+    "logo": "/assets/siscc/data-lifecycle-manager/images/logo.png",
+    "icon": "/assets/siscc/data-lifecycle-manager/images/sis-cc-icon.png"
+  },
+  "styles": "/assets/siscc/data-lifecycle-manager/styles/styles.css"
+}

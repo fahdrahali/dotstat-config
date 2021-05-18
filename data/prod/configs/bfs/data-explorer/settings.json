@@ -1,0 +1,116 @@
+{
+  "sdmx": {
+    "datasourceIds": ["staging:SIS-CC-stable:BFS","staging:SIS-CC-reset"],
+    "range": [0, 2499],
+    "attributes": {
+      "flags": ["OBS_STATUS", "CONF_STATUS"],
+      "footnotes": ["FOOTNOTE", "COMMENT", "UNIT_MEASURE"],
+      "prefscale": "PREF_SCALE",
+      "decimals": "DECIMALS"
+    },
+    "units": {
+      "id": "UNIT",
+      "annotationsDefinitionCodes": {
+        "concepts": ["UNIT_MEASURE_CONCEPTS"]
+      },
+      "defaultCodes": ["UNIT_MEASURE", "UNIT_MULT", "BASE_PER"],
+      "rejectedValueIds": ["_L", "_T", "_Z"]
+    },
+    "period": {
+      "boundaries": ["1970", "2025"],
+      "default": ["2015", "2020"]
+    },
+    "frequency": "A"
+  },
+  "viewer": {
+    "terms": {
+      "link": "https://www.bfs.admin.ch/bfs/en/home/fso/swiss-federal-statistical-office/terms-of-use.html"
+    },
+    "api": {
+      "doc": "https://github.com/sdmx-twg/sdmx-rest/tree/master/v2_1/ws/rest/docs",
+      "contact": ""
+    }
+  },
+  "app": {
+    "favicon": "/assets/bfs/images/favicon.ico",
+    "footer": {
+      "link": "https://siscc.org/"
+    }
+  },
+  "assets": {
+    "header": "/assets/bfs/images/logo.png",
+    "subheader": "/assets/siscc/data-explorer/images/dotstat-data-explorer-logo.png",
+    "footer": "/assets/siscc/data-explorer/images/sis-cc-icon.png",
+    "splash": "/assets/siscc/data-explorer/images/dotstat-data-explorer-logo.png",
+    "viewerFooter": "/assets/bfs/images/logo2.png"
+  },
+  "chart": {
+    "url": "",
+    "source": "http://de-demo-bfs.siscc.org/",
+    "maps": {
+      "world": {
+        "id": "world",
+        "projection": "mercator",
+        "path": "/assets/siscc/data-explorer/maps/world_countries.json",
+        "levels": [{ "id": "countries", "names": { "en": "world countries", "fr": "pays du monde" } }],
+        "scale": 150
+      }
+    },
+    "options": {
+      "base": { "height": 500 },
+      "axis": {
+        "x": { "font": { "family": "'Segoe UI'" } },
+        "y": { "font": { "family": "'Segoe UI'" } }
+      },
+      "serie": {
+        "annotation": { "font": { "family": "'Segoe UI'" } },
+        "tooltip": { "font": { "family": "'Segoe UI'" } }
+      }
+    },
+    "size": { "height": 400 }
+  },
+  "table": {
+    "cellsLimit": 4000
+  },
+  "theme": {
+    "visFont": "'Segoe UI'"
+  },
+  "i18n": {
+    "localeId": "fr",
+    "locales": {
+      "fr": {
+        "id": "fr",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "de": {
+        "id": "de",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "it": {
+        "id": "it",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "en": {
+        "id": "en",
+        "delimiters": { "thousands": " ", "decimal": "."  },
+        "timeFormat": "YYYY-MMM"
+      }
+    }
+  },
+  "styles": "/assets/siscc/data-explorer/styles/styles.css",
+  "search": {
+    "endpoint": "http://sfs-demo.siscc.org/api",
+    "homeFacetIds": ["Thème (stable)", "Thème (reset)", "Thema (stable)", "Thema (reset)", "Tema (stable)", "Tema (reset)", "Topic (stable)", "Topic (reset)"],
+    "homeFacetLevel2Clickable": true,
+    "pinnedFacetIds": ["Thème (stable)", "Thème (reset)", "Thema (stable)", "Thema (reset)", "Tema (stable)", "Tema (reset)", "Topic (stable)", "Topic (reset)"],
+    "defaultRows": 10
+  },
+  "share": {
+    "confirmUrl": "http://dv-demo.siscc.org",
+    "endpoint": "http://share-demo.siscc.org/api/charts",
+    "policy": ""
+  }
+}

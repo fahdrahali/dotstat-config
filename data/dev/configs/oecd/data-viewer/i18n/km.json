@@ -1,0 +1,5 @@
+{
+  "data.fetching": "KM---Fetching data...",
+  "data.error": "KM---Error while fetching data: {message}",
+  "data.none": "KM---No data."
+}
